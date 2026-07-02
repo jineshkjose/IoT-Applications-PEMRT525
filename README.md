@@ -153,6 +153,8 @@ At the end of the course, students should be able to:
 | Module 4 | https://onlinecourses.nptel.ac.in/noc21_cs14/preview |
 
 ---
+## NPTEL Course
+https://onlinecourses.nptel.ac.in/e-learning/progress/noc26_cs161
 
 ## Repository Contents
 
@@ -196,6 +198,251 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 - Topic 6: Enabling Technologies — WSN, Cloud, Big Data, RFID, IPv6/6LoWPAN, Embedded Systems `[TB3, REF2]`
 - Topic 7: IoT Levels 1–6 & Deployment Templates `[TB1]`
 - **Examination Questions** — 20 Part A (3 marks) + 8 Part B (9 marks) at the end
+
+---
+
+## 📝 CIE Assignments
+
+> Both sets are **compulsory**.  
+> Set A → *Evaluate* component (10 marks) | Set B → *Analyse* component (10 marks)
+
+### 📋 General Instructions
+
+- All assignments are **individual** unless stated otherwise
+- **Set A**: Submit as PDF (minimum 5 pages each)
+- **Set B**: Submit as ZIP — code + screenshots + demo video (1–2 min)
+- Plagiarism → zero marks | Code similarity > 30% will be penalised
+- Upload submissions to GitHub Classroom / LMS
+
+---
+
+## 📚 Set A — Report Assignments (10 Marks)
+
+Each report carries **2 marks**. Total: 5 × 2 = 10 marks.
+
+---
+
+### A1 — IoT Architecture Analysis of a Real Product
+**Module 1 | CO1**
+
+Pick any ONE real IoT product (Amazon Echo, Nest Thermostat, Fitbit, Smart Meter, etc.) and analyse its architecture by mapping it to all three models:
+
+- 3-Layer Architecture
+- 5-Layer Architecture
+- CISCO 7-Level Architecture
+
+**Deliverables:**
+1. Cover page — product name, image, brief description
+2. 3-Layer mapping with diagram
+3. 5-Layer mapping with diagram
+4. CISCO 7-Level mapping with table & justification
+5. Which architecture best describes this product? Why?
+6. References
+
+---
+
+### A2 — IoT Level Classification
+**Module 1 | CO1**
+
+Select **THREE** IoT systems from this list and classify each into IoT Levels 1–6 (Bahga & Madisetti):
+
+> Smart Parking | Smart Grid Meter | Industrial Robot Monitoring | Agricultural Soil Sensor Network | Home Security Camera | Wearable Health Monitor
+
+**Deliverables:**
+1. Brief description of all three chosen systems
+2. Level classification with full justification + data flow diagram
+3. Deployment template for each system
+4. Comparison table: Level | Nodes | Cloud Dependency | Real-time Need | Use Case
+5. Which IoT level is most commonly deployed in industry? Why?
+
+---
+
+### A3 — IoT Protocol Comparative Study
+**Module 3 | CO3**
+
+Compare these five protocols studied in Module 3:  
+**ZigBee | LoRaWAN | LTE-M | NB-IoT | IEEE 802.15.4**
+
+**Deliverables:**
+1. Introduction — why multiple IoT protocols exist
+2. Individual protocol descriptions (frequency, range, data rate, power)
+3. Comparison table: Protocol | Frequency | Range | Data Rate | Power | Topology | Cost | Use Case
+4. Case study 1 — real deployment using ZigBee or LoRaWAN
+5. Case study 2 — real deployment using LTE-M or NB-IoT
+6. Recommendation: best protocol for (a) Smart Agriculture, (b) Smart City, (c) Factory Automation
+7. References
+
+---
+
+### A4 — IoT Security Threat Analysis
+**Module 4 | CO4**
+
+Research ONE real-world IoT attack from this list and analyse it using the **Layered Attacker Model** from Module 4:
+
+> Mirai Botnet (2016) | Philips Hue Bridge vulnerability | Ring Doorbell credential attack | Stuxnet worm | Verkada security camera breach
+
+**Deliverables:**
+1. Attack summary — what happened, timeline, impact
+2. Layered attacker model mapping — which layer was attacked
+3. Security requirements violated (from syllabus list)
+4. Threat analysis using security tomography — network path of attack
+5. Countermeasures — identity management, access control, secure communication
+6. What should IoT manufacturers do to prevent this class of attacks?
+7. References
+
+---
+
+### A5 — Smart City IoT Architecture Design
+**Module 4 | CO4**
+
+Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart City model** (Street → City → Data Centre → Services):
+
+> (a) Smart Street Lighting for a 2 km road  
+> (b) Smart Waste Management for a ward with 500 houses  
+> (c) Smart Traffic Signal for a 4-way junction  
+> (d) Smart Water Quality Monitoring for a river stretch
+
+**Deliverables:**
+1. Use case description and problem statement
+2. Sensor & actuator selection with justification
+3. Street Layer design — node placement diagram
+4. City Layer — gateway, protocol, connectivity
+5. Data Centre Layer — cloud platform, storage, analytics
+6. Services Layer — dashboard/app mockup sketch
+7. Cost estimate table
+8. References
+
+---
+
+## 🔧 Set B — Hands-On Projects (10 Marks)
+
+Each project carries **2 marks**. Total: 5 × 2 = 10 marks.  
+Submit: **code + screenshots + demo video (max 2 min)**
+
+---
+
+### B1 — Smart Street Light Simulation
+**Module 2 & 4 | CO2, CO5**
+
+🛠️ **Tool:** [Tinkercad Circuits](https://www.tinkercad.com) — free, browser-based, no hardware needed
+
+Build an Arduino circuit in Tinkercad that:
+- Reads ambient light using an **LDR (photoresistor)**
+- Turns ON an LED street light when light falls below threshold
+- Displays light level and ON/OFF status on **Serial Monitor**
+- (Bonus) Shows status on LCD display
+
+**Submit:**
+1. Tinkercad circuit screenshot
+2. Tinkercad **shareable link** (public)
+3. Arduino `.ino` code with comments
+4. Serial Monitor screenshot
+5. One-page report — circuit explanation, LDR principle, threshold value
+
+---
+
+### B2 — MQTT Publish-Subscribe Demo
+**Module 1 & 3 | CO1, CO3**
+
+🛠️ **Tool:** Python 3 + `paho-mqtt` library + HiveMQ free public broker  
+Install: `pip install paho-mqtt`  
+Broker: `broker.hivemq.com` port `1883`
+
+Write TWO Python scripts:
+- **publisher.py** — simulates temperature sensor (18–40°C random), publishes every 5 sec to topic `iot/sensor/temperature`
+- **subscriber.py** — connects to broker, prints received messages with timestamp
+
+Demonstrate all three QoS levels (0, 1, 2).
+
+**Submit:**
+1. `publisher.py` with comments
+2. `subscriber.py` with comments
+3. Screenshot — both scripts running in two terminals
+4. HiveMQ Web Client screenshot showing messages
+5. One-page report — Pub-Sub model, broker role, QoS 0 vs 1 vs 2
+
+---
+
+### B3 — IoT Data Pipeline using Node-RED
+**Module 3 & 4 | CO3, CO4**
+
+🛠️ **Tool:** Node-RED on your laptop — `npm install -g node-red`  
+No hardware required.
+
+Build a Node-RED flow with:
+- **Inject node** — simulated temperature + humidity every 3 sec
+- **Function node** — triggers ALERT if temperature > 35°C
+- **MQTT Out → MQTT In** — demonstrates messaging
+- **Dashboard** — Gauge (temperature), Chart (history), Text (alert status)
+
+**Submit:**
+1. Node-RED flow `.json` export file (importable)
+2. Screenshot of complete flow in Node-RED editor
+3. Screenshot of running dashboard — gauge, chart, alert
+4. Screenshot showing alert triggered at > 35°C
+5. One-page report — each node's role, what IoT data pipeline means
+
+---
+
+### B4 — Raspberry Pi Sensor Interfacing
+**Module 4 | CO5**
+
+🛠️ **Option A:** Physical Raspberry Pi + DHT11 / LED / pushbutton  
+🛠️ **Option B:** [Wokwi Simulator](https://wokwi.com) — free, browser-based, supports RPi
+
+Implement **all THREE** tasks:
+
+| Task | Description |
+|------|-------------|
+| Task 1 | LED Blink — GPIO output, blink at 1 Hz for 10 seconds |
+| Task 2 | Button-Controlled LED — GPIO input, LED ON while pressed |
+| Task 3 | DHT11 Temperature Sensor — print temp & humidity every 2 sec |
+
+**Submit:**
+1. `led_blink.py` — with GPIO setup, loop, cleanup
+2. `button_led.py` — with debounce
+3. `dht11_sensor.py`
+4. Screenshots / Wokwi simulation screenshots
+5. Wokwi shareable link OR hardware demo video (max 2 min)
+6. One-page report — GPIO pin mapping, circuit diagram, library used
+
+---
+
+### B5 — Smart Irrigation System (End-to-End Project)
+**Module 1, 2 & 4 | CO2, CO5**
+
+🛠️ **Tools:** Tinkercad + Python + `matplotlib` (`pip install matplotlib`)  
+No hardware required.
+
+**Part 1 — Hardware Layer (Tinkercad):**
+- Arduino + soil moisture sensor (use potentiometer as substitute)
+- Water pump relay (LED as indicator)
+- LCD showing moisture %
+- Serial Monitor output
+
+**Part 2 — Dashboard (Python):**
+- `irrigation_dashboard.py` — generates simulated moisture data
+- Live matplotlib graph showing moisture trend
+- Red alert line at 30% (irrigation threshold)
+
+**Submit:**
+1. Tinkercad circuit screenshot + shareable link
+2. Arduino `.ino` code with serial output screenshot
+3. `irrigation_dashboard.py`
+4. Screenshot of running live dashboard
+5. One-page report — map this project to IoT architecture layers and identify which IoT Level (1–6) it belongs to
+6. ⭐ Bonus: Connect Tinkercad serial output to Python dashboard using `pyserial`
+
+---
+
+## 📊 Marking Rubric
+
+| Criterion | 9–10 | 7–8 | 5–6 | < 5 |
+|-----------|------|-----|-----|-----|
+| Concept Understanding | Deep & accurate | Mostly correct | Partial | Incorrect |
+| Technical Accuracy | All correct | Minor errors | Some errors | Major errors |
+| Deliverables | All submitted | 4/5 | 3/5 | < 3 |
+| Presentation / Code Quality | Clean & professional | Organised | Basic | Unstructured |
 
 ---
 
