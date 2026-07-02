@@ -316,14 +316,13 @@ Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart 
 
 ## 👥 Set B — Project Groups
 
-> Group number = Project number (Group 1 → B1, Group 2 → B2, etc.)  
-> **Lady member is the Group Leader** — responsible for coordination and submission.
+> Group number = Project number (Group 1 → B1, Group 2 → B2, etc.)
 
 ### Group 1 — Project B1
 
 | Roll No | Name | |
 |---------|------|--|
-| 17 | FELIZYA SHENIL | ♀ Leader |
+| 17 | FELIZYA SHENIL | ♀ |
 | 7 | ALDRIN ANTONY | |
 | 11 | ARIC ANTONY | |
 | 15 | DONALD P PAUL | |
@@ -333,7 +332,7 @@ Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart 
 
 | Roll No | Name | |
 |---------|------|--|
-| 35 | NAINA NIJO | ♀ Leader |
+| 35 | NAINA NIJO | ♀ |
 | 19 | INDRAJITH P P | |
 | 21 | JOBIS BIJO | |
 | 23 | JOEL SIBY | |
@@ -343,7 +342,7 @@ Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart 
 
 | Roll No | Name | |
 |---------|------|--|
-| 41 | SNIYA DAVIS | ♀ Leader |
+| 41 | SNIYA DAVIS | ♀ |
 | 30 | M ADITHYA MENON | |
 | 36 | NAVANEETH J VELLARA | |
 | 38 | SAFDAR HASHMI P A | |
@@ -353,7 +352,7 @@ Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart 
 
 | Roll No | Name | |
 |---------|------|--|
-| 47 | VASMIYA N A | ♀ Leader |
+| 47 | VASMIYA N A | ♀ |
 | 40 | SHARON SHAJU C | |
 | 45 | DERIK TOM | |
 | 46 | NOEL NISHAD N | |
