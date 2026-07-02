@@ -216,6 +216,54 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ---
 
+## 👥 Assignment Groups
+
+> Same groups apply to **both Set A and Set B**.  
+> Group number = Assignment number (Group 1 → A1 + B1, Group 2 → A2 + B2, etc.)
+
+### Group 1 — A1 & B1
+
+| Roll No | Name | |
+|---------|------|--|
+| 17 | FELIZYA SHENIL | ♀ |
+| 7 | ALDRIN ANTONY | |
+| 11 | ARIC ANTONY | |
+| 15 | DONALD P PAUL | |
+| 16 | EVAN PATHIPARAMPIL SUNIL | |
+
+### Group 2 — A2 & B2
+
+| Roll No | Name | |
+|---------|------|--|
+| 35 | NAINA NIJO | ♀ |
+| 19 | INDRAJITH P P | |
+| 21 | JOBIS BIJO | |
+| 23 | JOEL SIBY | |
+| 26 | JOYAL JOHN | |
+
+### Group 3 — A3 & B3
+
+| Roll No | Name | |
+|---------|------|--|
+| 41 | SNIYA DAVIS | ♀ |
+| 30 | M ADITHYA MENON | |
+| 36 | NAVANEETH J VELLARA | |
+| 38 | SAFDAR HASHMI P A | |
+| 39 | SHARON ANTONY K XAVIER | |
+
+### Group 4 — A4 & B4
+
+| Roll No | Name | |
+|---------|------|--|
+| 47 | VASMIYA N A | ♀ |
+| 40 | SHARON SHAJU C | |
+| 45 | DERIK TOM | |
+| 46 | NOEL NISHAD N | |
+
+> Total: 19 students | 4 groups | Max 5 per group | 1 lady per group
+
+---
+
 ## 📚 Set A — Report Assignments (10 Marks)
 
 Each report carries **2 marks**. Total: 5 × 2 = 10 marks.
@@ -311,53 +359,6 @@ Design a Smart City IoT Architecture for ONE scenario using the **4-layer Smart 
 6. Services Layer — dashboard/app mockup sketch
 7. Cost estimate table
 8. References
-
----
-
-## 👥 Set B — Project Groups
-
-> Group number = Project number (Group 1 → B1, Group 2 → B2, etc.)
-
-### Group 1 — Project B1
-
-| Roll No | Name | |
-|---------|------|--|
-| 17 | FELIZYA SHENIL | ♀ |
-| 7 | ALDRIN ANTONY | |
-| 11 | ARIC ANTONY | |
-| 15 | DONALD P PAUL | |
-| 16 | EVAN PATHIPARAMPIL SUNIL | |
-
-### Group 2 — Project B2
-
-| Roll No | Name | |
-|---------|------|--|
-| 35 | NAINA NIJO | ♀ |
-| 19 | INDRAJITH P P | |
-| 21 | JOBIS BIJO | |
-| 23 | JOEL SIBY | |
-| 26 | JOYAL JOHN | |
-
-### Group 3 — Project B3
-
-| Roll No | Name | |
-|---------|------|--|
-| 41 | SNIYA DAVIS | ♀ |
-| 30 | M ADITHYA MENON | |
-| 36 | NAVANEETH J VELLARA | |
-| 38 | SAFDAR HASHMI P A | |
-| 39 | SHARON ANTONY K XAVIER | |
-
-### Group 4 — Project B4
-
-| Roll No | Name | |
-|---------|------|--|
-| 47 | VASMIYA N A | ♀ |
-| 40 | SHARON SHAJU C | |
-| 45 | DERIK TOM | |
-| 46 | NOEL NISHAD N | |
-
-> Total: 19 students | 4 groups | Max 5 per group | 1 lady per group
 
 ---
 
