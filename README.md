@@ -216,12 +216,22 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ---
 
-## 👥 Assignment Groups
+## 👥 Project Groups
 
-> Same groups apply to **both Set A and Set B**.  
-> Group number = Assignment number (Group 1 → A1 + B1, Group 2 → A2 + B2, etc.)
+> Same groups apply to **both Set A and Set B assignments** and all **Projects (P1–P5)**.  
+> Group number = Project number (Group 1 → P1, Group 2 → P2, … Group 5 → P5).  
+> ♀ = lady member
 
-### Group 1 — A1 & B1
+| Group | Lady Member | Members | Project |
+|-------|-------------|---------|---------|
+| Group 1 | FELIZYA SHENIL ♀ | 4 | P1 |
+| Group 2 | NAINA NIJO ♀ | 4 | P2 |
+| Group 3 | SNIYA DAVIS ♀ | 4 | P3 |
+| Group 4 | — (no lady member) | 4 | P4 |
+| Group 5 | VASMIYA N A ♀ | 3 | P5 |
+| **Total** | **4 ladies in 4 groups** | **19** | **P1–P5** |
+
+### Group 1 — P1
 
 | Roll No | Name | |
 |---------|------|--|
@@ -229,38 +239,43 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 | 7 | ALDRIN ANTONY | |
 | 11 | ARIC ANTONY | |
 | 15 | DONALD P PAUL | |
-| 16 | EVAN PATHIPARAMPIL SUNIL | |
 
-### Group 2 — A2 & B2
+### Group 2 — P2
 
 | Roll No | Name | |
 |---------|------|--|
 | 35 | NAINA NIJO | ♀ |
+| 16 | EVAN PATHIPARAMPIL SUNIL | |
 | 19 | INDRAJITH P P | |
 | 21 | JOBIS BIJO | |
-| 23 | JOEL SIBY | |
-| 26 | JOYAL JOHN | |
 
-### Group 3 — A3 & B3
+### Group 3 — P3
 
 | Roll No | Name | |
 |---------|------|--|
 | 41 | SNIYA DAVIS | ♀ |
+| 23 | JOEL SIBY | |
+| 26 | JOYAL JOHN | |
 | 30 | M ADITHYA MENON | |
+
+### Group 4 — P4
+
+| Roll No | Name | |
+|---------|------|--|
+| 40 | SHARON SHAJU C | |
 | 36 | NAVANEETH J VELLARA | |
 | 38 | SAFDAR HASHMI P A | |
 | 39 | SHARON ANTONY K XAVIER | |
 
-### Group 4 — A4 & B4
+### Group 5 — P5
 
 | Roll No | Name | |
 |---------|------|--|
 | 47 | VASMIYA N A | ♀ |
-| 40 | SHARON SHAJU C | |
 | 45 | DERIK TOM | |
 | 46 | NOEL NISHAD N | |
 
-> Total: 19 students | 4 groups | Max 5 per group | 1 lady per group
+> Total: 19 students | 5 groups | Max 4 per group | 4 ladies in 4 groups | Group 4 has no lady
 
 ---
 
