@@ -1,39 +1,54 @@
 # OCR Assignment — Chapter 1 Conversion
 
 ## Your Task
-Convert the scanned Chapter 1 images to a searchable Word document using Google Docs OCR, then upload your result here.
+Convert the assigned Chapter 1 page images to a Word document using Google Docs OCR, then upload your result here.
+
+---
+
+## File Naming Convention
+
+Name your file exactly as:
+
+```
+Chapter1_<PageNo>_<YourName>.docx
+```
+
+Examples:
+- `Chapter1_01-10_ArunKumar.docx`
+- `Chapter1_11-20_PriyaSharma.docx`
+- `Chapter1_21-30_RahulMenon.docx`
 
 ---
 
 ## Step-by-Step Instructions
 
-### Step 1 — Download the PDF
+### Step 1 — Download Your Assigned Page Images
 1. Go to the GitHub repo: https://github.com/jineshkjose/IoT-Applications-PEMRT525
-2. Navigate to **Teaching Note** → `Bahga_Madisetti_Chapter1.pdf`
-3. Click **Download raw file** (download icon on the right)
+2. Navigate to **Teaching Note → Chapter1_Images**
+3. Download only your assigned pages (e.g., `page_01.jpg` to `page_10.jpg`)
+   - Click each image → **Download raw file**
+   - Or download the full ZIP: green **Code** button → **Download ZIP**, then extract
 
 ### Step 2 — OCR with Google Docs (Free)
-1. Go to [drive.google.com](https://drive.google.com) and sign in
-2. Click **+ New → File upload** and upload `Bahga_Madisetti_Chapter1.pdf`
-3. Once uploaded, **right-click** the file → **Open with → Google Docs**
-   - Google Docs will automatically OCR all 52 pages (takes ~1–2 minutes)
-4. Review the text (fix obvious errors if you want)
-5. Go to **File → Download → Microsoft Word (.docx)**
-6. Rename the file: `Chapter1_OCR_<YourName>.docx`
-   - Example: `Chapter1_OCR_ArunKumar.docx`
+1. Go to [drive.google.com](https://drive.google.com) and sign in with your college Google account
+2. Upload your assigned page images to Drive
+3. **Right-click** an image → **Open with → Google Docs** — it OCRs automatically
+4. Repeat for each page, then copy all text into one Google Doc
+5. Review and fix any obvious OCR errors
+6. Go to **File → Download → Microsoft Word (.docx)**
+7. Rename: `Chapter1_<PageNo>_<YourName>.docx`
 
 ### Step 3 — Upload to GitHub
 1. Go to: https://github.com/jineshkjose/IoT-Applications-PEMRT525/tree/main/OCR_Submissions
 2. Click **Add file → Upload files**
-3. Drag and drop your `Chapter1_OCR_<YourName>.docx`
-4. At the bottom, add a commit message: `Add OCR submission - <YourName>`
+3. Drag and drop your `.docx` file
+4. Commit message: `OCR submission - Chapter1 pages <X-Y> - <YourName>`
 5. Click **Commit changes**
 
 ---
 
 ## Submissions
 
-| Student Name | File | Status |
-|---|---|---|
-| *(your name here)* | *(your file here)* | Pending |
-
+| Student Name | Pages | File | Status |
+|---|---|---|---|
+| *(your name)* | *(page range)* | *(your file)* | Pending |
