@@ -1,7 +1,7 @@
 # IoT & Applications — PEMRT525
 ## Project Topics | Batch MR 2K24 | Semester S5 | JECC
 
-> 6 project topics. Each group picks one. No two groups may select the same project.  
+> 6 project topics. Each group picks one. No two groups may select the same project.    
 > All implementations must be **hardware-based**.  
 > Submit: Source code + Circuit diagram + Demo video (max 2 min) + One-page report
 
@@ -17,7 +17,6 @@
 | P4 | Campus Weather Station | ESP32 + LoRa SX1278 | LoRaWAN |
 | P5 | Staff Location Tracker | ESP32 badge | Wi-Fi (LAN) |
 | P6 | College Bus Tracker v1 *(optional)* | ESP32 + Mobile Hotspot | Wi-Fi / Mobile |
-| P7 | Smart Print Queue Kiosk | Raspberry Pi 3/4 + Load Cell | Wi-Fi (LAN) |
 
 ---
 
@@ -204,45 +203,3 @@ Students and parents waiting for the JECC college bus have no visibility of bus 
 4. Screenshots — En Route state, Arrived state, full trip log
 5. One-page report — multi-SSID logic, trip state machine diagram, GPS upgrade plan
 
----
-
-## P7 — Smart Print Queue Kiosk with Paper Level Detection
-
-**Hardware:** Raspberry Pi 3/4, load cell + HX711, USB hub, USB printer, TV/monitor  
-**Stack:** Python, Flask, CUPS, SQLite  
-**Modules:** 2 & 4 | **CO:** CO2, CO5
-
-### Problem Statement
-JECC has a printing service on campus but students face long physical queues — especially before assignment deadlines, exam season, and lab record days. Students must stand and wait with no visibility of queue status. Operators receive files via WhatsApp or USB pen drive, creating disorganised job handling with no tracking or accountability. Additionally, the operator has no way to monitor paper level in the printer tray without manually checking, leading to mid-job paper exhaustion and further delays.
-
-Design a Raspberry Pi-based Smart Print Queue Kiosk that eliminates the physical queue and adds live paper level monitoring:
-
-**Student — Submit print job remotely from anywhere on college LAN:**
-- Web portal (phone/laptop browser) → upload PDF/DOCX/image, select copies, B&W or colour, enter name and roll number → job added to queue instantly
-- USB pen drive → plug into kiosk → select file from on-screen list → added to queue
-- System assigns a token number and estimated wait time after submission
-
-**Paper Level Detection (Load Cell + HX711):**
-- Paper tray placed on load cell sensor
-- HX711 ADC reads tray weight → RPi calculates remaining sheets (A4 70 GSM: 1 sheet ≈ 5g)
-- Live paper count displayed on operator screen and queue board
-- Alert triggered automatically when paper drops below 50 sheets
-
-**Operator Screen (kiosk):**
-- Live job queue — token, student name, file, pages, copies, status (Waiting / Printing / Done)
-- Live paper count with low-paper alert
-- One-click print → CUPS sends job to printer → mark as Done
-
-**Queue Display Board (TV / student web page):**
-- Current token being printed
-- Estimated wait time per pending job
-- Student checks token status from phone on LAN
-
-**All jobs logged to SQLite:** token, student name, roll number, file, pages, cost (pages × rate), timestamp, status
-
-### Deliverables
-1. Circuit diagram — load cell + HX711 wired to RPi GPIO, USB printer and hub connection
-2. `paper_sensor.py` — HX711 read, weight-to-sheet-count conversion, low paper alert logic
-3. Flask web portal — file upload, job submission, token assignment, queue status page
-4. Operator dashboard — live job queue, one-click print via CUPS, paper count with alert
-5. One-page report — HX711 calibration procedure, sheet weight calculation (A4 70 GSM), CUPS integration method, queue time estimation formula
