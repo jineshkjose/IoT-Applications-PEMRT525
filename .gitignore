@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Word/Office temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Large textbook source files (kept locally, too large for git)
+Teaching Note/Module 1/Bahga_Madisetti_Chapter1_Textbook.docx
+Teaching Note/Final Notes/
+
+# Images — push via GitHub web upload (too large for proxy)
+Teaching Note/Module 1/*.png
+Teaching Note/*.png
