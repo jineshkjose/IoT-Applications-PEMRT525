@@ -218,20 +218,23 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ## 👥 Project Groups
 
-> Same groups apply to **both Set A and Set B assignments** and all **Projects (P1–P5)**.  
-> Group number = Project number (Group 1 → P1, Group 2 → P2, … Group 5 → P5).  
+> Same groups apply to **both Set A and Set B assignments** and all projects.  
 > ♀ = lady member
 
-| Group | Lady Member | Members | Project |
-|-------|-------------|---------|---------|
-| Group 1 | FELIZYA SHENIL ♀ | 4 | P1 |
-| Group 2 | NAINA NIJO ♀ | 4 | P2 |
-| Group 3 | SNIYA DAVIS ♀ | 4 | P3 |
-| Group 4 | — (no lady member) | 4 | P4 |
-| Group 5 | VASMIYA N A ♀ | 3 | P5 |
-| **Total** | **4 ladies in 4 groups** | **19** | **P1–P5** |
+| Group | Lady Member | Members | Project | Title |
+|-------|-------------|---------|---------|-------|
+| Group 1 | FELIZYA SHENIL ♀ | 4 | P6 | College Bus Tracker v1 |
+| Group 2 | NAINA NIJO ♀ | 4 | P1 | Smart Digital Notice Board |
+| Group 3 | SNIYA DAVIS ♀ | 4 | P2 | Smart AC Controller |
+| Group 4 | — | 4 | P4 | Campus Weather Station |
+| Group 5 | VASMIYA N A ♀ | 3 | P3 | RFID EV Charging Station |
+| **Total** | **4 ladies in 4 groups** | **19** | | |
 
-### Group 1 — P1
+---
+
+### Group 1 — P6 · College Bus Tracker v1
+
+**Hardware:** ESP32 + Mobile Hotspot &nbsp;|&nbsp; **Protocol:** Wi-Fi / Mobile
 
 | Roll No | Name | |
 |---------|------|--|
@@ -240,7 +243,11 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 | 11 | ARIC ANTONY | |
 | 15 | DONALD P PAUL | |
 
-### Group 2 — P2
+---
+
+### Group 2 — P1 · Smart Digital Notice Board
+
+**Hardware:** Raspberry Pi 3/4 &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN)
 
 | Roll No | Name | |
 |---------|------|--|
@@ -249,16 +256,24 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 | 19 | INDRAJITH P P | |
 | 21 | JOBIS BIJO | |
 
-### Group 3 — P3
+---
+
+### Group 3 — P2 · Smart AC Controller
+
+**Hardware:** ESP32 &nbsp;|&nbsp; **Protocol:** GPIO + SD card
 
 | Roll No | Name | |
 |---------|------|--|
 | 41 | SNIYA DAVIS | ♀ |
 | 23 | JOEL SIBY | |
 | 26 | JOYAL JOHN | |
-| 30 | M ADITHYA MENON | |
+| 46 | NOEL NISHAD N | |
 
-### Group 4 — P4
+---
+
+### Group 4 — P4 · Campus Weather Station
+
+**Hardware:** ESP32 + LoRa SX1278 &nbsp;|&nbsp; **Protocol:** LoRaWAN
 
 | Roll No | Name | |
 |---------|------|--|
@@ -267,13 +282,19 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 | 38 | SAFDAR HASHMI P A | |
 | 39 | SHARON ANTONY K XAVIER | |
 
-### Group 5 — P5
+---
+
+### Group 5 — P3 · RFID EV Charging Station
+
+**Hardware:** ESP32 + Flask &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN) + RFID
 
 | Roll No | Name | |
 |---------|------|--|
 | 47 | VASMIYA N A | ♀ |
 | 45 | DERIK TOM | |
-| 46 | NOEL NISHAD N | |
+| 30 | M ADITHYA MENON | |
+
+---
 
 > Total: 19 students | 5 groups | Max 4 per group | 4 ladies in 4 groups | Group 4 has no lady
 
