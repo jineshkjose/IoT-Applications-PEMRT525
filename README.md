@@ -35,11 +35,11 @@ At the end of the course, students should be able to:
 
 | CO | Outcome | Bloom's Level |
 |----|---------|---------------|
-| CO1 | Understand the IoT fundamentals and architecture modelling | K2 — Understand |
-| CO2 | Understand the smart things in IoT and functional blocks | K2 — Understand |
-| CO3 | Understand the communication networks and protocols used in IoT | K2 — Understand |
-| CO4 | Understand the cloud resources, data analysis and applications | K2 — Understand |
-| CO5 | Apply the IoT processes in embedded applications | K4 — Analyse |
+| CO1 | Apply IoT fundamentals to model and explain IoT architectural views | K3 — Apply |
+| CO2 | Apply knowledge of smart objects, sensors, actuators, and functional blocks in IoT systems | K3 — Apply |
+| CO3 | Apply communication networks and protocols to connect IoT devices | K3 — Apply |
+| CO4 | Apply cloud resources and data analytics techniques in IoT applications | K3 — Apply |
+| CO5 | Evaluate and implement an IoT-based embedded application and present the design, results, and findings in a structured project report | K5 — Evaluate |
 
 > K1: Remember | K2: Understand | K3: Apply | K4: Analyse | K5: Evaluate | K6: Create
 
