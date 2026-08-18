@@ -221,20 +221,20 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 > Same groups apply to **both Set A and Set B assignments** and all projects.  
 > ♀ = lady member
 
-| Group | Lady Member | Members | Project | Title |
-|-------|-------------|---------|---------|-------|
-| Group 1 | FELIZYA SHENIL ♀ | 4 | P6 | College Bus Tracker v1 |
-| Group 2 | NAINA NIJO ♀ | 4 | P1 | Smart Digital Notice Board |
-| Group 3 | SNIYA DAVIS ♀ | 4 | P2 | Smart AC Controller |
-| Group 4 | — | 4 | P4 | Campus Weather Station |
-| Group 5 | VASMIYA N A ♀ | 3 | P3 | RFID EV Charging Station |
-| **Total** | **4 ladies in 4 groups** | **19** | | |
+| Group | Lady Member | Members | Project | Title | GitHub |
+|-------|-------------|---------|---------|-------|--------|
+| Group 1 | FELIZYA SHENIL ♀ | 4 | P6 | College Bus Tracker v1 | [D0n41d/IoT-Project](https://github.com/D0n41d/IoT-Project) |
+| Group 2 | NAINA NIJO ♀ | 4 | P1 | Smart Digital Notice Board | [me-jobis/Smart-Notice-Board](https://github.com/me-jobis/Smart-Notice-Board) |
+| Group 3 | SNIYA DAVIS ♀ | 4 | P2 | Smart AC Controller | [joelsppl696-hash/Smart-AC-contoller-with-power-failure-handling](https://github.com/joelsppl696-hash/Smart-AC-contoller-with-power-failure-handling) |
+| Group 4 | — | 4 | P4 | Campus Weather Station | [Njv1232/IoT-project-Weather-Station](https://github.com/Njv1232/IoT-project-Weather-Station) |
+| Group 5 | VASMIYA N A ♀ | 3 | P3 | RFID EV Charging Station | [MAdithyaMenon/RFID-EV-CHARGING](https://github.com/MAdithyaMenon/RFID-EV-CHARGING) |
+| **Total** | **4 ladies in 4 groups** | **19** | | | |
 
 ---
 
 ### Group 1 — P6 · College Bus Tracker v1
 
-**Hardware:** ESP32 + Mobile Hotspot &nbsp;|&nbsp; **Protocol:** Wi-Fi / Mobile
+**Hardware:** ESP32 + Mobile Hotspot &nbsp;|&nbsp; **Protocol:** Wi-Fi / Mobile &nbsp;|&nbsp; **GitHub:** [D0n41d/IoT-Project](https://github.com/D0n41d/IoT-Project)
 
 | Roll No | Name | |
 |---------|------|--|
@@ -247,7 +247,7 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ### Group 2 — P1 · Smart Digital Notice Board
 
-**Hardware:** Raspberry Pi 3/4 &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN)
+**Hardware:** Raspberry Pi 3/4 &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN) &nbsp;|&nbsp; **GitHub:** [me-jobis/Smart-Notice-Board](https://github.com/me-jobis/Smart-Notice-Board)
 
 | Roll No | Name | |
 |---------|------|--|
@@ -260,7 +260,7 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ### Group 3 — P2 · Smart AC Controller
 
-**Hardware:** ESP32 &nbsp;|&nbsp; **Protocol:** GPIO + SD card
+**Hardware:** ESP32 &nbsp;|&nbsp; **Protocol:** GPIO + SD card &nbsp;|&nbsp; **GitHub:** [joelsppl696-hash/Smart-AC-contoller-with-power-failure-handling](https://github.com/joelsppl696-hash/Smart-AC-contoller-with-power-failure-handling)
 
 | Roll No | Name | |
 |---------|------|--|
@@ -273,7 +273,7 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ### Group 4 — P4 · Campus Weather Station
 
-**Hardware:** ESP32 + LoRa SX1278 &nbsp;|&nbsp; **Protocol:** LoRaWAN
+**Hardware:** ESP32 + LoRa SX1278 &nbsp;|&nbsp; **Protocol:** LoRaWAN &nbsp;|&nbsp; **GitHub:** [Njv1232/IoT-project-Weather-Station](https://github.com/Njv1232/IoT-project-Weather-Station)
 
 | Roll No | Name | |
 |---------|------|--|
@@ -286,7 +286,7 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ### Group 5 — P3 · RFID EV Charging Station
 
-**Hardware:** ESP32 + Flask &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN) + RFID
+**Hardware:** ESP32 + Flask &nbsp;|&nbsp; **Protocol:** Wi-Fi (LAN) + RFID &nbsp;|&nbsp; **GitHub:** [MAdithyaMenon/RFID-EV-CHARGING](https://github.com/MAdithyaMenon/RFID-EV-CHARGING)
 
 | Roll No | Name | |
 |---------|------|--|
