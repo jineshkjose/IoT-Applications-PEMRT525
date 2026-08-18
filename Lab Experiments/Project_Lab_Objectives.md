@@ -54,17 +54,15 @@
 
 ---
 
-## P6 — College Bus Tracker — Initial Version
-**Group 1 | Hardware:** ESP32 + Push Button + LED | **Protocol:** Wi-Fi (Single — College LAN)  
+## P6 — College Bus Tracker — Lab Experiment
+**Group 1 | Hardware:** ESP32 + NEO-6M GPS Module | **Protocol:** Wi-Fi (College LAN)  
 **GitHub:** [D0n41d/IoT-Project](https://github.com/D0n41d/IoT-Project)
 
-> **Scope:** Single bus, single Wi-Fi network (college LAN).
+> **Lab Scope:** GPS data acquisition and upload to Flask server with SQLite storage.  
+> *(Full project features such as trip state machine and dashboard are implemented outside lab.)*
 
-### Objectives
-1. To connect ESP32 to a single college Wi-Fi network and establish HTTP-based communication with a Flask server running on the college LAN.
-2. To design and implement a button-based trip status state machine (Departed → En Route → Arrived) with LED indicators showing the current trip state.
-3. To implement periodic HTTP heartbeat transmission (every 30 seconds) carrying trip status and timestamp to the Flask server, with automatic "Not Running" detection after a 5-minute heartbeat gap.
-4. To develop a Flask server with SQLite trip logging and a real-time bus status dashboard displaying current bus status, last ping time, elapsed trip time, and a full day trip log.
+### Objective
+To interface a NEO-6M GPS module with ESP32, parse live GPS coordinates (latitude, longitude, speed, timestamp), transmit the data via HTTP POST to a Flask server over Wi-Fi, and store each GPS record in a SQLite database — demonstrating IoT-based real-time location data logging.
 
 ---
 
@@ -72,7 +70,7 @@
 
 | Group | Project | Key Hardware | Key Protocol | Objectives Count |
 |-------|---------|-------------|-------------|-----------------|
-| Group 1 | P6 — College Bus Tracker | ESP32, Button, LED | Wi-Fi (Single — College LAN) | 4 |
+| Group 1 | P6 — College Bus Tracker | ESP32, NEO-6M GPS | Wi-Fi (LAN) → Flask → SQLite | 1 |
 | Group 2 | P1 — Smart Digital Notice Board | Raspberry Pi, PIR | Wi-Fi (LAN) | 4 |
 | Group 3 | P2 — Smart AC Controller | ESP32, PIR, Relay, RTC, SD | GPIO + I2C + SPI | 4 |
 | Group 4 | P4 — Campus Weather Station | 2× ESP32, LoRa SX1278 | LoRaWAN | 4 |
