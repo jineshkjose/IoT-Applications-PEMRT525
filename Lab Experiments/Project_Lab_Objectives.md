@@ -13,13 +13,13 @@
 > **Lab Scope:** Occupancy-based monitor ON/OFF control using PIR or ultrasonic sensor with Raspberry Pi GPIO.  
 > *(Full project features — pygame rotating display, Flask admin panel, weather data and news headline integration — are implemented outside lab.)*
 
-### Objective
-To interface a PIR sensor or ultrasonic sensor with Raspberry Pi GPIO and implement occupancy-based monitor ON/OFF control — turning the display ON when presence is detected and automatically powering it OFF after 60 seconds of no detected motion, demonstrating IoT-based energy conservation.
+### Objectives
+1. To interface a PIR sensor or ultrasonic sensor with Raspberry Pi GPIO and implement occupancy-based monitor ON/OFF control — turning the display ON when presence is detected and automatically powering it OFF after 60 seconds of no detected motion, demonstrating IoT-based energy conservation.
+2. To fetch live weather data (temperature, humidity, condition) and news headlines from public APIs using Python on the Raspberry Pi and display the retrieved data on screen, demonstrating IoT integration with internet data sources.
 
 ### Additional Project Features *(not part of lab)*
 - Fullscreen rotating display using pygame — auto-cycles timetable, achievements, announcements, and live clock every 10 seconds.
 - Flask-based web admin panel accessible over college LAN for remote notice management.
-- Integration of live weather data and news headlines fetched from APIs and displayed on the notice board.
 
 ---
 
@@ -76,7 +76,7 @@ To interface a NEO-6M GPS module with ESP32, parse live GPS coordinates (latitud
 | Group | Project | Key Hardware | Key Protocol | Objectives Count |
 |-------|---------|-------------|-------------|-----------------|
 | Group 1 | P6 — College Bus Tracker | ESP32, NEO-6M GPS | Wi-Fi (LAN) → Flask → SQLite | 1 |
-| Group 2 | P1 — Smart Digital Notice Board | Raspberry Pi, PIR/Ultrasonic | GPIO occupancy-based monitor ON/OFF | 1 |
+| Group 2 | P1 — Smart Digital Notice Board | Raspberry Pi, PIR/Ultrasonic | GPIO monitor ON/OFF + Weather/News API | 2 |
 | Group 3 | P2 — Smart AC Controller | ESP32, PIR, Relay, RTC, SD | GPIO + I2C + SPI | 4 |
 | Group 4 | P4 — Campus Weather Station | 2× ESP32, LoRa SX1278 | LoRaWAN | 4 |
 | Group 5 | P3 — RFID EV Charging Station | ESP32, RC522, PZEM-004T | Wi-Fi + RFID | 4 |
