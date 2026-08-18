@@ -7,14 +7,19 @@
 ---
 
 ## P1 — Smart Digital Notice Board
-**Group 2 | Hardware:** Raspberry Pi 3/4 + PIR sensor | **Protocol:** Wi-Fi (LAN)  
+**Group 2 | Hardware:** Raspberry Pi 3/4 + PIR / Ultrasonic sensor | **Protocol:** Wi-Fi (LAN)  
 **GitHub:** [me-jobis/Smart-Notice-Board](https://github.com/me-jobis/Smart-Notice-Board)
 
-### Objectives
-1. To interface a PIR motion sensor with Raspberry Pi GPIO and implement occupancy-based display ON/OFF control.
-2. To develop a fullscreen rotating display application using pygame that auto-cycles content categories (timetable, achievements, announcements, live clock) every 10 seconds.
-3. To build a Flask-based web admin panel accessible over the college LAN for remote notice management without physical access to the display unit.
-4. To demonstrate IoT-based energy conservation by automatically powering off the display after 60 seconds of no detected motion.
+> **Lab Scope:** Occupancy-based monitor ON/OFF control using PIR or ultrasonic sensor with Raspberry Pi GPIO.  
+> *(Full project features — pygame rotating display, Flask admin panel, weather data and news headline integration — are implemented outside lab.)*
+
+### Objective
+To interface a PIR sensor or ultrasonic sensor with Raspberry Pi GPIO and implement occupancy-based monitor ON/OFF control — turning the display ON when presence is detected and automatically powering it OFF after 60 seconds of no detected motion, demonstrating IoT-based energy conservation.
+
+### Additional Project Features *(not part of lab)*
+- Fullscreen rotating display using pygame — auto-cycles timetable, achievements, announcements, and live clock every 10 seconds.
+- Flask-based web admin panel accessible over college LAN for remote notice management.
+- Integration of live weather data and news headlines fetched from APIs and displayed on the notice board.
 
 ---
 
@@ -71,7 +76,7 @@ To interface a NEO-6M GPS module with ESP32, parse live GPS coordinates (latitud
 | Group | Project | Key Hardware | Key Protocol | Objectives Count |
 |-------|---------|-------------|-------------|-----------------|
 | Group 1 | P6 — College Bus Tracker | ESP32, NEO-6M GPS | Wi-Fi (LAN) → Flask → SQLite | 1 |
-| Group 2 | P1 — Smart Digital Notice Board | Raspberry Pi, PIR | Wi-Fi (LAN) | 4 |
+| Group 2 | P1 — Smart Digital Notice Board | Raspberry Pi, PIR/Ultrasonic | GPIO occupancy-based monitor ON/OFF | 1 |
 | Group 3 | P2 — Smart AC Controller | ESP32, PIR, Relay, RTC, SD | GPIO + I2C + SPI | 4 |
 | Group 4 | P4 — Campus Weather Station | 2× ESP32, LoRa SX1278 | LoRaWAN | 4 |
 | Group 5 | P3 — RFID EV Charging Station | ESP32, RC522, PZEM-004T | Wi-Fi + RFID | 4 |
