@@ -300,6 +300,33 @@ The **Module1_Complete_Study_Notes.docx** is a self-contained student reference 
 
 ---
 
+## 🎤 Module 3 Seminar Assignments
+
+> **Paired by marks** — one strong + one weaker student per pair.  
+> INDRAJITH P P (full marks, 30) is exempted.  
+> 18 students | 9 topics | 2 students per topic | 2 teams
+
+### 🟦 Team A — Topics 1–5
+
+| # | Topic | Students |
+|---|-------|---------|
+| 1 | IEEE 802.15.4 – Physical Layer | EVAN PATHIPARAMPIL SUNIL + VASMIYA N A |
+| 2 | IEEE 802.15.4 – MAC Layer | NAVANEETH J VELLARA + ALDRIN ANTONY |
+| 3 | Uses of IEEE 802.15.4 | DONALD P PAUL + ARIC ANTONY |
+| 4 | Future of 802.15.4 (802.15.4e & 802.15.4g) | FELIZYA SHENIL + SHARON SHAJU C |
+| 5 | Modbus Protocol | M ADITHYA MENON + JOEL SIBY |
+
+### 🟩 Team B — Topics 6–9
+
+| # | Topic | Students |
+|---|-------|---------|
+| 6 | ZigBee & ZigBee Architecture | JOYAL JOHN + DERIK TOM |
+| 7 | LoRaWAN – Architecture, Physical & MAC Layer | JOBIS BIJO + NOEL NISHAD N |
+| 8 | LTE-M & NB-IoT | SNIYA DAVIS + SHARON ANTONY K XAVIER |
+| 9 | Network Layer – IP-based Protocols (Next Gen IoT) | NAINA NIJO + SAFDAR HASHMI P A |
+
+---
+
 ## 📚 Set A — Report Assignments (10 Marks)
 
 Each report carries **2 marks**. Total: 5 × 2 = 10 marks.
