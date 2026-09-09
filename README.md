@@ -83,12 +83,22 @@ At the end of the course, students should be able to:
 
 ### Module 3 — Unified Data Standards & Protocols (9 Hours) | CO3
 
-- IEEE 802.15.4 — Physical Layer, MAC Layer, Uses, Future (802.15.4e and 802.15.4g)
-- Modbus
-- ZigBee — Architecture
-- LoRaWAN — Standardization, Physical Layer, MAC Layer, Topology
-- LTE-M, NB-IoT
-- Network Layer — Next Generation IP-based Protocols
+- **Unified Data Standards – Protocols**
+- **IEEE 802.15.4**
+  - The Physical Layer
+  - The Media-Access Control Layer
+  - Uses of 802.15.4
+  - The Future of 802.15.4: 802.15.4e and 802.15.4g
+- **Modbus**
+- **ZigBee**
+  - ZigBee Architecture
+- **LoRaWAN**
+  - Standardization and Alliances
+  - Physical Layer
+  - MAC Layer
+  - Topology
+- **LTE-M, NB-IoT**
+- **Network Layer – The Next Generation: IP-based Protocols**
 
 ### Module 4 — Raspberry Pi, Security & Smart City (9 Hours) | CO4, CO5
 
