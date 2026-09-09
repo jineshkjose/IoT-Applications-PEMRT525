@@ -102,10 +102,25 @@ At the end of the course, students should be able to:
 
 ### Module 4 — Raspberry Pi, Security & Smart City (9 Hours) | CO4, CO5
 
-- Raspberry Pi Interfaces (Serial, SPI, I2C)
-- Raspberry Pi Interfacing and Programming using Python (LED, Switch, Sensor, Serial, SPI, I2C devices)
-- IoT Privacy, Security and Vulnerabilities — Security Requirements, Threat Analysis, Security Tomography, Layered Attacker Model, Identity Management, Access Control, Secure Message Communication
-- Smart City IoT Architecture — Street Layer, City Layer, Data Center Layer, Services Layer
+- **Raspberry Pi**
+  - Raspberry Pi Interfaces (Serial, SPI, I2C)
+  - Raspberry Pi Interfacing and Programming Examples using Python
+    - LED, Switch, Sensor
+    - Serial, SPI, I2C Devices
+- **IoT Privacy, Security and Vulnerabilities**
+  - Solutions, Vulnerabilities
+  - Security Requirements
+  - Threat Analysis
+  - Security Tomography
+  - Layered Attacker Model
+  - Identity Management
+  - Access Control
+  - Secure Message Communication
+- **Smart City IoT Architecture**
+  - Street Layer
+  - City Layer
+  - Data Center Layer
+  - Services Layer
 
 ---
 
