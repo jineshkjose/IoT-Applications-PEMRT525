@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exp 4 Circuit — Blinking of LED using Raspberry Pi GPIO</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f8f9fa; display: flex; justify-content: center; padding: 20px; }
+.card { background: white; border-radius: 10px; box-shadow: 0 2px 12px #0002; padding: 24px; max-width: 720px; width: 100%; }
+h2 { color: #1F4E79; border-bottom: 3px solid #1F4E79; padding-bottom: 8px; font-size: 1.1em; }
+h3 { color: #1F4E79; font-size: 0.95em; margin: 18px 0 6px; }
+svg { width: 100%; border: 1px solid #dce6f0; border-radius: 6px; background: #fafcff; }
+.connections { background: #EBF3FB; border-radius: 6px; padding: 12px 16px; font-size: 0.88em; }
+.connections li { margin: 4px 0; font-family: Courier New, monospace; }
+</style></head>
+<body><div class="card">
+<h2>Experiment 4 — Circuit Diagram</h2>
+<h3>Blinking of LED using Raspberry Pi GPIO</h3>
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="50" width="200" height="160" rx="8" fill="#780000" stroke="#c83232" stroke-width="2"/>
+  <text x="140" y="72" text-anchor="middle" fill="#ff6666" font-size="13" font-weight="bold">Raspberry Pi</text>
+  <text x="140" y="88" text-anchor="middle" fill="#ffaaaa" font-size="10">40-pin GPIO Header</text>
+  <circle cx="240" cy="120" r="5" fill="#FFB703"/>
+  <text x="235" y="117" text-anchor="end" fill="white" font-size="10">GPIO17 (Pin 11)</text>
+  <circle cx="240" cy="170" r="5" fill="#aaa"/>
+  <text x="235" y="167" text-anchor="end" fill="white" font-size="10">GND (Pin 6)</text>
+  <!-- Wire GPIO17 to resistor -->
+  <line x1="245" y1="120" x2="310" y2="120" stroke="#FFB703" stroke-width="2.5"/>
+  <rect x="310" y="110" width="55" height="20" rx="4" fill="#e8d5a3" stroke="#8B7355" stroke-width="2"/>
+  <text x="338" y="124" text-anchor="middle" font-size="10" fill="#4a3728">220Ω</text>
+  <line x1="365" y1="120" x2="415" y2="120" stroke="#FFB703" stroke-width="2.5"/>
+  <ellipse cx="435" cy="120" rx="18" ry="14" fill="#ff4444" stroke="#cc0000" stroke-width="2" opacity="0.9"/>
+  <text x="435" y="124" text-anchor="middle" font-size="10" fill="white" font-weight="bold">LED</text>
+  <line x1="453" y1="120" x2="530" y2="120" stroke="#555" stroke-width="2"/>
+  <line x1="530" y1="120" x2="530" y2="170" stroke="#555" stroke-width="2"/>
+  <line x1="245" y1="170" x2="530" y2="170" stroke="#555" stroke-width="2"/>
+  <line x1="530" y1="175" x2="530" y2="195" stroke="#555" stroke-width="2"/>
+  <line x1="516" y1="195" x2="544" y2="195" stroke="#555" stroke-width="2.5"/>
+  <line x1="520" y1="200" x2="540" y2="200" stroke="#555" stroke-width="1.5"/>
+  <line x1="524" y1="205" x2="536" y2="205" stroke="#555" stroke-width="1"/>
+  <text x="548" y="197" font-size="10" fill="#333">GND</text>
+  <text x="338" y="105" text-anchor="middle" font-size="10" fill="#555">220 Ω</text>
+</svg>
+<h3>Circuit Connections</h3>
+<div class="connections"><ul><li>RPi GPIO17 (BCM) = Physical Pin 11 ──→ 220Ω ──→ LED Anode (+)</li><li>LED Cathode (−) ──→ GND (Physical Pin 6)</li><li>BCM mode: GPIO.setmode(GPIO.BCM)</li></ul></div>
+<p style="font-size:0.8em;color:#888;margin-top:16px">PEMRT525 IoT &amp; Applications Lab | JECC | S5 MR 2K24</p>
+</div></body></html>
